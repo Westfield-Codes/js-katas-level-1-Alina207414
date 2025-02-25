@@ -58,9 +58,6 @@ else alert(myName + " is " + age + " years old");
 
 /* ICE CREAM */
 
-/* No Prompt */
-
-
 /* Var Alert Prompt */
 // make a string variable for favorite ice cream flavor, prompt user for it
 var flavor = prompt("What your favorite flavor?");
@@ -70,7 +67,16 @@ var scoops = prompt("How many scoops?");
 alert("You want " + scoops + " scoops of " + flavor);
 
 
-/* Prompt with Conditional */
+/* Var Alert Prompt Conditional */
+// make a string variable for favorite ice cream flavor, prompt user for it
+var flavor = prompt("what your favorite flavor?");
+// make an integer variable for number of scoops on the cone, prompt user for it
+var scoops = prompt("How many scoops?");
+// if scoosp is creater than three, alert ("Max 3 scoops!")
+if ( scoops > 3) alert("Max 3 scoops!");
+// otherwise alert "You want " scoops " scoops of " flavor
+else alert("You want " + scoops + " scoops of " + flavor);
+
 
 
 /* PET */
